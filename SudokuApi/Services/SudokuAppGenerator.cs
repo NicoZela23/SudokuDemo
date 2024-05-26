@@ -5,6 +5,12 @@ namespace SudokuApi.Services
     public class SudokuBoardService
     {
         private int?[,] _sudokuBoard;
+        private readonly bool[,] _isGeneratedValue;
+
+        public SudokuBoardService()
+        {
+            _isGeneratedValue = new bool[9, 9];
+        }
 
         public int?[,] GetBoard()
         {
@@ -50,6 +56,21 @@ namespace SudokuApi.Services
                 return true;
             }
             return false;
+        }
+        public bool ClearCell(int x, int y)
+        {
+            if (_sudokuBoard == null)
+            {
+                throw new InvalidOperationException("Sudoku board has not been generated yet");
+            }
+
+            if (_isGeneratedValue[x, y])
+            {
+                return false;
+            }
+
+            _sudokuBoard[x,y] = null;
+            return true;
         }
     }
 }

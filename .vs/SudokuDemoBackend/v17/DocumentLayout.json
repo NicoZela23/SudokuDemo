@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|c:\\users\\victus\\source\\repos\\sudokudemo\\sudokuapi\\services\\sudokuappgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|solutionrelative:sudokuapi\\services\\sudokuappgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|c:\\users\\victus\\source\\repos\\sudokudemo\\sudokuapi\\controllers\\sudokucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|solutionrelative:sudokuapi\\controllers\\sudokucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SudokuAppGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "RelativeDocumentMoniker": "SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "RelativeToolTip": "SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:56:56.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SudokuController.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Controllers\\SudokuController.cs",
+              "RelativeDocumentMoniker": "SudokuApi\\Controllers\\SudokuController.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Controllers\\SudokuController.cs",
+              "RelativeToolTip": "SudokuApi\\Controllers\\SudokuController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAswEMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:54:29.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -42,7 +42,7 @@ namespace SudokuApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpPost("update")]
+        [HttpPost("move")]
         public ActionResult UpdateBoard([FromBody] MoveRequest request)
         {
             if (request.X < 0 || request.X >= 9 || request.Y < 0 || request.Y >= 9 || request.Value < 1 || request.Value > 9)
@@ -61,5 +61,25 @@ namespace SudokuApi.Controllers
                 return BadRequest("Invalid move.");
             }
         }
+        [HttpDelete("clear")]
+        public ActionResult ClearCell([FromBody] ClearCellRequest request)
+        {
+            if (request.X < 0 || request.X >= 9 || request.Y < 0 || request.Y >= 9)
+            {
+                return BadRequest("Invalid coordinates.");
+            }
+
+            bool isCleared = _sudokuBoardService.ClearCell(request.X, request.Y);
+
+            if (isCleared)
+            {
+                return Ok("Cell cleared successfully.");
+            }
+            else
+            {
+                return BadRequest("Cannot clear an original puzzle cell.");
+            }
+        }
+
     }
 }
