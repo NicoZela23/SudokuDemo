@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuDemoBackend.csproj",
+      "projectUniqueName": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuDemoBackend\\SudokuDemoBackend.csproj",
       "projectName": "SudokuDemoBackend",
-      "projectPath": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuDemoBackend.csproj",
+      "projectPath": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuDemoBackend\\SudokuDemoBackend.csproj",
       "packagesPath": "C:\\Users\\victus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\obj\\",
+      "outputPath": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuDemoBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victus\\AppData\\Roaming\\NuGet\\NuGet.Config",
