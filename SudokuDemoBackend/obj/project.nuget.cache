@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UGOgRCRj9ty4jM25Z8v5Er5WlE6jzQwJGV1olL5NaUlTbNDOcyBK+bA3SWQrAZnNoHxHzO95f+bTfCwck87RZA==",
+  "dgSpecHash": "OXIl85E9+QEpCcLqUeijrZK6ptwKlvjgh5OauLq74d1ZzUAYl0NTi3f5rGCacOxOf2F1zbesk936wWyi8SdCfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuDemoBackend.csproj",
+  "projectFilePath": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuDemoBackend\\SudokuDemoBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victus\\.nuget\\packages\\towel\\1.0.40\\towel.1.0.40.nupkg.sha512"
   ],

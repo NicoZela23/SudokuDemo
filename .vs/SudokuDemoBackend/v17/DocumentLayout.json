@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|c:\\users\\victus\\source\\repos\\sudokudemobackend\\sudokudemobackend\\sudokugamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|solutionrelative:sudokudemobackend\\sudokugamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|c:\\users\\victus\\source\\repos\\sudokudemo\\sudokuapi\\services\\sudokuappgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|solutionrelative:sudokuapi\\services\\sudokuappgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|c:\\users\\victus\\source\\repos\\sudokudemobackend\\sudokudemobackend\\numbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|solutionrelative:sudokudemobackend\\numbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|c:\\users\\victus\\source\\repos\\sudokudemo\\sudokuapi\\controllers\\sudokucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|solutionrelative:sudokuapi\\controllers\\sudokucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|c:\\users\\victus\\source\\repos\\sudokudemobackend\\sudokudemobackend\\sudokuconsolewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|solutionrelative:sudokudemobackend\\sudokuconsolewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|c:\\users\\victus\\source\\repos\\sudokudemobackend\\sudokudemobackend\\sudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|solutionrelative:sudokudemobackend\\sudokugenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|c:\\users\\victus\\source\\repos\\sudokudemobackend\\sudokudemobackend\\movevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B75B80-7E56-4758-AAF0-59057DDB3885}|SudokuDemoBackend\\SudokuDemoBackend.csproj|solutionrelative:sudokudemobackend\\movevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|c:\\users\\victus\\source\\repos\\sudokudemo\\sudokuapi\\services\\movevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|solutionrelative:sudokuapi\\services\\movevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,67 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MoveValidator.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\MoveValidator.cs",
-              "RelativeDocumentMoniker": "SudokuDemoBackend\\MoveValidator.cs",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\MoveValidator.cs",
-              "RelativeToolTip": "SudokuDemoBackend\\MoveValidator.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAQwDAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:49:44.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SudokuGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuGenerator.cs",
-              "RelativeDocumentMoniker": "SudokuDemoBackend\\SudokuGenerator.cs",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuGenerator.cs",
-              "RelativeToolTip": "SudokuDemoBackend\\SudokuGenerator.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwC0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:49:55.932Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SudokuConsoleWriter.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuConsoleWriter.cs",
-              "RelativeDocumentMoniker": "SudokuDemoBackend\\SudokuConsoleWriter.cs",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuConsoleWriter.cs",
-              "RelativeToolTip": "SudokuDemoBackend\\SudokuConsoleWriter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Title": "MoveValidator.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\MoveValidator.cs",
+              "RelativeDocumentMoniker": "SudokuApi\\Services\\MoveValidator.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\MoveValidator.cs",
+              "RelativeToolTip": "SudokuApi\\Services\\MoveValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T17:55:29.817Z"
+              "WhenOpened": "2024-05-28T18:24:34.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NumberValidator.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\NumberValidator.cs",
-              "RelativeDocumentMoniker": "SudokuDemoBackend\\NumberValidator.cs",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\NumberValidator.cs",
-              "RelativeToolTip": "SudokuDemoBackend\\NumberValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAANAAAA",
+              "Title": "SudokuController.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Controllers\\SudokuController.cs",
+              "RelativeDocumentMoniker": "SudokuApi\\Controllers\\SudokuController.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Controllers\\SudokuController.cs",
+              "RelativeToolTip": "SudokuApi\\Controllers\\SudokuController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wDwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T17:55:29.02Z"
+              "WhenOpened": "2024-05-28T14:53:52.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SudokuGameHandler.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuGameHandler.cs",
-              "RelativeDocumentMoniker": "SudokuDemoBackend\\SudokuGameHandler.cs",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemoBackend\\SudokuDemoBackend\\SudokuGameHandler.cs",
-              "RelativeToolTip": "SudokuDemoBackend\\SudokuGameHandler.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADYAAAAgAAAA",
+              "Title": "SudokuAppGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "RelativeDocumentMoniker": "SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "RelativeToolTip": "SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T16:15:36.366Z",
+              "WhenOpened": "2024-05-28T15:09:54.977Z",
               "EditorCaption": ""
             }
           ]
