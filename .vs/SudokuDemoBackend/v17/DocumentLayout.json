@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|c:\\users\\victus\\source\\repos\\sudokudemo\\sudokuapi\\controllers\\sudokucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|solutionrelative:sudokuapi\\controllers\\sudokucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|c:\\users\\victus\\source\\repos\\sudokudemo\\sudokuapi\\services\\movevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFB9ACC-2DD5-46B3-B80F-1CE59FECE9AB}|SudokuApi\\SudokuApi.csproj|solutionrelative:sudokuapi\\services\\movevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SudokuAppGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
-              "RelativeDocumentMoniker": "SudokuApi\\Services\\SudokuAppGenerator.cs",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
-              "RelativeToolTip": "SudokuApi\\Services\\SudokuAppGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "MoveValidator.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\MoveValidator.cs",
+              "RelativeDocumentMoniker": "SudokuApi\\Services\\MoveValidator.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\MoveValidator.cs",
+              "RelativeToolTip": "SudokuApi\\Services\\MoveValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:56:56.429Z",
+              "WhenOpened": "2024-05-28T18:24:34.632Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +45,22 @@
               "RelativeDocumentMoniker": "SudokuApi\\Controllers\\SudokuController.cs",
               "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Controllers\\SudokuController.cs",
               "RelativeToolTip": "SudokuApi\\Controllers\\SudokuController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAswEMAAAANAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wDwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:54:29.84Z",
+              "WhenOpened": "2024-05-28T14:53:52.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SudokuAppGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "RelativeDocumentMoniker": "SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\SudokuDemo\\SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "RelativeToolTip": "SudokuApi\\Services\\SudokuAppGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T15:09:54.977Z",
               "EditorCaption": ""
             }
           ]

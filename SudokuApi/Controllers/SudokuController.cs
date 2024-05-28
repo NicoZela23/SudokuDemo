@@ -5,7 +5,7 @@ using SudokuApi.Services;
 namespace SudokuApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/sudoku")]
     public class SudokuController : ControllerBase
     {
         private readonly SudokuBoardService _sudokuBoardService;
@@ -42,7 +42,7 @@ namespace SudokuApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpPost("move")]
+        [HttpPost()]
         public ActionResult UpdateBoard([FromBody] MoveRequest request)
         {
             if (request.X < 0 || request.X >= 9 || request.Y < 0 || request.Y >= 9 || request.Value < 1 || request.Value > 9)
@@ -61,7 +61,7 @@ namespace SudokuApi.Controllers
                 return BadRequest("Invalid move.");
             }
         }
-        [HttpDelete("clear")]
+        [HttpDelete()]
         public ActionResult ClearCell([FromBody] ClearCellRequest request)
         {
             if (request.X < 0 || request.X >= 9 || request.Y < 0 || request.Y >= 9)

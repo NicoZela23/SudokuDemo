@@ -5,12 +5,7 @@ namespace SudokuApi.Services
     public class SudokuBoardService
     {
         private int?[,] _sudokuBoard;
-        private readonly bool[,] _isGeneratedValue;
-
-        public SudokuBoardService()
-        {
-            _isGeneratedValue = new bool[9, 9];
-        }
+        private int?[,] originalBoardValues;
 
         public int?[,] GetBoard()
         {
@@ -22,6 +17,7 @@ namespace SudokuApi.Services
             if (_sudokuBoard == null)
             {
                 _sudokuBoard = SudokuGenerator.Generate();
+                originalBoardValues = (int?[,])_sudokuBoard.Clone();
             }
         }
 
@@ -47,10 +43,8 @@ namespace SudokuApi.Services
                 throw new InvalidOperationException("Sudoku board has not been generated yet.");
             }
 
-            NumberValidator validator = new NumberValidator(_sudokuBoard);
-            if (validator.IsNumberValidInSquare(value, x, y) &&
-                validator.IsNumberValidInRow(value, x, y) &&
-                validator.IsNumberValidInColumn(value, x, y))
+            MoveValidator validator = new MoveValidator(_sudokuBoard, originalBoardValues);
+            if (validator.IsValidMove(value, x, y))
             {
                 _sudokuBoard[x, y] = value;
                 return true;
@@ -64,7 +58,7 @@ namespace SudokuApi.Services
                 throw new InvalidOperationException("Sudoku board has not been generated yet");
             }
 
-            if (_isGeneratedValue[x, y])
+            if (originalBoardValues[x,y] != null)
             {
                 return false;
             }
